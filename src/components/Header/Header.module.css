@@ -76,6 +76,10 @@
     cursor: pointer;
 }
 .TextLinkMob{
+    display: flex;
+    justify-content: flex-start;
+    border: none;
+    background: transparent;
     width: 100%;
     padding: 20px 0px 20px 40px;
     text-decoration: none;
