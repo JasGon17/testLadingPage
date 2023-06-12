@@ -1,0 +1,9 @@
+.ContChild{
+  width: 100%;
+  min-height: calc(100vh - 150px);
+}
+.Container{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
