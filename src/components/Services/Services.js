@@ -4,8 +4,11 @@ import { FaHandHoldingMedical } from "react-icons/fa";
 
 export const Services = () =>{
     return(
-        <section className={styles.Cont}>
-            <p className={styles.Text1}>Servicios del <span className={styles.StrongText}>Otorrinolaringólogo en Monterrey</span>:</p>
+        <section id="servicios" className={styles.Cont}>
+            <div className={styles.ContText}>
+                <p className={styles.StrongText}>Otorrinolaringólogo en Monterrey</p>
+                <p className={styles.Text1}>Te ofrece:</p>
+            </div>
             <ul>
                 <li><FaHandHoldingMedical className={styles.Icon}/>Consulta.</li>
                 <li><FaHandHoldingMedical className={styles.Icon}/>Radiofrecuencia de Cornetes.</li>
@@ -14,6 +17,8 @@ export const Services = () =>{
                 <li><FaHandHoldingMedical className={styles.Icon}/>Endoscopia Nasal.</li>
                 <li><FaHandHoldingMedical className={styles.Icon}/>Otorrinolaringología Pediátrica.</li>
             </ul>
+            <div className={styles.ContDiv}></div>
+            <div className={styles.ContDiv2}></div>
         </section>
     )
 }
