@@ -1,0 +1,46 @@
+.Cont{
+    display: flex;
+    flex-direction: column;
+    padding: 40px 16px 40px 16px;
+    width: 100%;
+    gap: 40px;
+}
+.Cont ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.Cont li{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    font-size: 18px;
+    color: var(--gray-dark);
+    font-weight: 400;
+    line-height: 150%;
+}
+.Text1{
+    font-size: 28px;
+    font-weight: 400;
+    color: var(--gray-dark);
+}
+.StrongText{
+    font-size: 28px;
+    font-weight: 600;
+}
+.Icon{
+    color: var(--blue-ligth);
+}
+@media only screen and (min-width: 600px) {
+    .Text1{
+        width: 100%;
+        font-size: 32px;
+    }
+    .Cont li{
+        font-size: 22px;
+    }
+    .StrongText{
+        font-size: 32px;
+    }
+}

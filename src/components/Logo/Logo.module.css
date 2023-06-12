@@ -1,0 +1,29 @@
+.Cont{
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+}
+.ContO{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px;
+    border: solid 2px var(--gray-dark);
+    color: var(--gray-dark);
+}
+.ContText{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    color: var(--gray-dark);
+}
+.Text1{
+    font-size: 32px;
+}
+.Text2{
+    font-size: 16px;
+}
+.Text3{
+    font-size: 12px;
+}
