@@ -1,6 +1,5 @@
 .Cont{
     position: relative;
-    top: 100px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -56,6 +55,7 @@
 @media only screen and (min-width: 1024px) {
     .Cont{
         height: calc(100vh - 100px);
+        padding: 120px 16px 20px 16px;
     }
     .ContLocation{
         flex-direction: row;
