@@ -73,10 +73,10 @@ export const Header = () =>{
                     <div className={styles.ContMenu}>
                         <Logo onClick={()=>{handleNavMenu("inicio")}}/>
                         <nav className={styles.ContNavMob}>
-                            <Link href="" onClick={()=>{handleNavMenu("inicio")}} className={styles.TextLinkMob}>Inicio</Link>
-                            <Link href="" onClick={()=>{handleNavMenu("servicios")}} className={styles.TextLinkMob}>Servicios</Link>
-                            <Link href="" onClick={()=>{handleNavMenu("contacto")}} className={styles.TextLinkMob}>Contacto</Link>
-                            <Link href="" onClick={()=>{handleNavMenu("direccion")}} className={styles.TextLinkMob}>Dirección</Link>
+                            <button href="" onClick={()=>{handleNavMenu("inicio")}} className={styles.TextLinkMob}>Inicio</button>
+                            <button href="" onClick={()=>{handleNavMenu("servicios")}} className={styles.TextLinkMob}>Servicios</button>
+                            <button href="" onClick={()=>{handleNavMenu("contacto")}} className={styles.TextLinkMob}>Contacto</button>
+                            <button href="" onClick={()=>{handleNavMenu("direccion")}} className={styles.TextLinkMob}>Dirección</button>
                         </nav>
                         <div className={styles.ContCopy}>
                             <span className={styles.Copy}>© All rights reserved by Otorrinolaringólogo en Monterrey.</span>
