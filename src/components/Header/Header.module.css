@@ -1,3 +1,8 @@
+.ContHeader{
+    position: fixed;
+    width: 100%;
+    z-index: 4;
+}
 .Container{
     position: relative;
     width: 100%;
@@ -69,6 +74,8 @@
     align-items: flex-start;
 }
 .TextLink{
+    border: none;
+    background: transparent;
     text-decoration: none;
     font-size: 16px;
     font-weight: 600;
