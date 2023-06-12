@@ -53,10 +53,6 @@
     color: var(--gray-dark);
 }
 @media only screen and (min-width: 1024px) {
-    .Cont{
-        height: calc(100vh - 100px);
-        padding: 120px 16px 20px 16px;
-    }
     .ContLocation{
         flex-direction: row;
         justify-content: space-between;
