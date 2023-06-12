@@ -97,7 +97,7 @@
 }
 @media only screen and (min-width: 1024px) {
     .Cont{
-        height: 100vh;
+        height: calc(100vh - 100px);
     }
     .Text{
         width: 70%;
