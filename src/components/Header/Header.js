@@ -58,9 +58,9 @@ export const Header = () =>{
                 <Logo onClick={()=>{handleNavMenu("inicio")}}/>
                 <nav className={styles.ContNav}>
                     <Link href="/" className={styles.TextLink}>Inicio</Link>
-                    <Link href="#servicios" className={styles.TextLink}>Servicios</Link>
-                    <Link href="#contacto"  className={styles.TextLink}>Contacto</Link>
-                    <Link href="#direccion" className={styles.TextLink}>Dirección</Link>
+                    <Link href="/#servicios" className={styles.TextLink}>Servicios</Link>
+                    <Link href="/#contacto"  className={styles.TextLink}>Contacto</Link>
+                    <Link href="/#direccion" className={styles.TextLink}>Dirección</Link>
                 </nav>
                 <button 
                 onClick={()=>{handleMenu()}}
@@ -73,10 +73,10 @@ export const Header = () =>{
                     <div className={styles.ContMenu}>
                         <Logo onClick={()=>{handleNavMenu("inicio")}}/>
                         <nav className={styles.ContNavMob}>
-                            <button href="" onClick={()=>{handleNavMenu("inicio")}} className={styles.TextLinkMob}>Inicio</button>
-                            <button href="" onClick={()=>{handleNavMenu("servicios")}} className={styles.TextLinkMob}>Servicios</button>
-                            <button href="" onClick={()=>{handleNavMenu("contacto")}} className={styles.TextLinkMob}>Contacto</button>
-                            <button href="" onClick={()=>{handleNavMenu("direccion")}} className={styles.TextLinkMob}>Dirección</button>
+                            <button onClick={()=>{handleNavMenu("inicio")}} className={styles.TextLinkMob}>Inicio</button>
+                            <button onClick={()=>{handleNavMenu("servicios")}} className={styles.TextLinkMob}>Servicios</button>
+                            <button onClick={()=>{handleNavMenu("contacto")}} className={styles.TextLinkMob}>Contacto</button>
+                            <button onClick={()=>{handleNavMenu("direccion")}} className={styles.TextLinkMob}>Dirección</button>
                         </nav>
                         <div className={styles.ContCopy}>
                             <span className={styles.Copy}>© All rights reserved by Otorrinolaringólogo en Monterrey.</span>
