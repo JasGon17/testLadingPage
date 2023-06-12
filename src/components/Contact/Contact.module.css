@@ -28,6 +28,7 @@
 }
 .CardContact{
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     flex-direction: column;
@@ -92,7 +93,7 @@
 .IconContact{
     font-size: 32px;
 }
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 1024px) {
     .Cont{
         height: 100vh;
     }
